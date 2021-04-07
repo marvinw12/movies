@@ -75,6 +75,7 @@ const onMovieSelect = async (movie, summaryElement, side) => {
   }
 };
 
+
 const runComparison = () => {
     const leftSideStats = document.querySelectorAll('#left-summary .notification');
     const rightSideStats = document.querySelectorAll('#right-summary .notification');
@@ -95,6 +96,7 @@ const runComparison = () => {
     });
 };
 
+//retuns movie details upon click
 const movieTemplate = (movieDetail) => {
   const dollars = parseInt(
     movieDetail.BoxOffice.replace(/\$/g, "").replace(/,/g, "")
