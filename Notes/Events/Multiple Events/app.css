@@ -1,0 +1,15 @@
+#boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+}
+
+h1{
+    text-align: center;
+}
